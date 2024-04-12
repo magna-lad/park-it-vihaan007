@@ -1,0 +1,241 @@
+
+/* navbar */
+
+.navbar-parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    button:hover{
+        cursor: pointer;  
+    }
+    background: black;
+}
+.logo{
+    background: none;
+    border: none;
+}
+.navbar-pre-registation{
+    width: 30em;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.list-property{
+    background: black;
+    border: 3px white solid;
+    color: white;
+    font-size: 18px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius:100px ;
+    padding-inline: 2em;
+    transition: color 0.5s ease;
+    transition: background-color 0.5s ease;
+}
+.list-property:hover{
+    color: black;
+    background-color: white;
+}
+.sign-up, .sign-in{
+    background-color: black;
+    padding: 0.5em;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    color: white;
+    transition: color 0.5s ease;
+    transition: background-color 0.5s ease;
+}
+.sign-in:hover{
+    color: black;
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 20px;
+
+}
+.sign-up:hover{
+    padding: 0.5em;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+/* Main search box */
+
+.bg-image{
+    width: 100%;
+    color: blue;
+    position: absolute;
+    z-index: -1;
+}
+.main-working-space{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    /* border: 10px red solid; */
+    padding-bottom: 2.5em;
+
+}
+.search-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    p{
+        font-size: 250%;
+        font-weight:bolder;
+        color: #ffffff;
+        margin-bottom: 10px;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 100); 
+        filter: blur(0.5px);
+    }
+}
+.search-box{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width : 25rem;
+    border-radius: 200px;
+
+}
+.location-search{
+    border-radius: 100px;
+    padding: 1em;
+    color: white;
+    background-color: #6A80F6;
+    border: none;
+    margin: 1em;
+    width: 100px;
+}
+.location-search:hover{
+    cursor: pointer;
+    background-color: #0026ff;
+}
+.location-space{
+    padding: 12px;
+    border-radius: 20px;
+    margin-left: 18px;
+    width: 250px;
+    border: grey solid 1px;
+    font-size:medium;
+}
+
+
+/* Procedure */
+
+.procedure-grandparent{
+    margin-top: 3%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 1000px;
+    
+    /* margin-top: 10em; */
+}
+
+.procedure-parent{
+    width: 73%;
+    /* border: solid 1px red; */
+}
+
+
+
+/* client page */
+
+.client-page-grandparent{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background: rgb(64, 0, 255);
+    
+}
+
+.photo-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px ;
+    /* margin: 10px; */
+    
+    img{
+        border-radius: 200px;
+    }
+    background-color: #00b3ff;
+}
+
+.client-page-user-info{
+    width: 50%;
+    /* border: 1px solid black; */
+    background: rgb(0, 157, 255);
+    border-radius:10px ;
+    /* margin: 10px; */
+
+}
+
+.personal-info{
+    background: rgb(108, 108, 255);
+    width: 500px;
+    margin: 20px;
+    height:150px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    font-size:x-large;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.vehicle-information{
+    width: 80%;
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    background: rgb(8, 0, 255);
+    border-radius:80px;
+    button{
+        border-radius: 200px;
+        border: none;
+        padding-inline: 10px;
+        padding-top:1px  ;
+        background: rgb(121, 121, 255);
+    }
+    button:hover{
+        cursor: pointer;
+        background: rgb(133, 133, 255);
+
+    }
+}
+
+.vehicle-information-add{
+    margin-left: 20px;
+}
+
+#add-vehicle{
+    border: none;
+    background: blueviolet;  
+    padding: 10px; 
+    margin: 10px;
+    border-radius:20px ;
+    color: white;
+}
+
+#add-vehicle:hover{
+    cursor: pointer;
+    background: rgb(112, 0, 218);  
+
+}
